@@ -107,7 +107,7 @@
               <i class="bi bi-arrow-counterclockwise"></i>
             </div>
           </div>
-          <div class="mt-1"><input type="color" class="form-range" bind:value="{shadowColor}"></div>
+          <div class="mt-1"><input type="color" bind:value="{shadowColor}"></div>
         </div>
 
         <!-- Box color -->
@@ -119,7 +119,7 @@
               <i class="bi bi-arrow-counterclockwise"></i>
             </div>
           </div>
-          <div class="mt-1"><input type="color" class="form-range" bind:value="{boxColor}"></div>
+          <div class="mt-1"><input type="color" bind:value="{boxColor}"></div>
         </div>
 
         <!-- Background color -->
@@ -131,7 +131,7 @@
               <i class="bi bi-arrow-counterclockwise"></i>
             </div>
           </div>
-          <div class="mt-1"><input type="color" class="form-range" bind:value="{bgColor}"></div>
+          <div class="mt-1"><input type="color" bind:value="{bgColor}"></div>
         </div>
       </div>
 
@@ -165,6 +165,10 @@
 		max-width: 200px;
 		height: 150px;
 	}
+  .label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
   #inset-box {
     position: absolute;
     bottom: 0.25rem;
@@ -198,4 +202,11 @@
   }
   #copy-icon:hover { color: #0d6efd; }
   #copy-icon:active { color: #0a58ca; }
+  input[type=color] {
+    width: 100%;
+    height: 1.5rem;
+    padding: 1px;
+    background-color: var(--bs-dark);
+    border-radius: 2px;
+  }
 </style>
