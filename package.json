@@ -5,8 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public --no-clear --port 4300",
-    "copy": "echo Copy 'public' contents into 'docs': cp -r public/* docs"
+    "start": "sirv docs --no-clear --port 4300"
   },
   "dependencies": {
     "sirv-cli": "^1.0.0"
