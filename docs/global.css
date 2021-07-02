@@ -1,0 +1,17 @@
+body { color: rgba(0, 0, 0, 0.8); }
+
+/* Override Bootstrap */
+.container-fluid { max-width: 800px; }
+a { text-decoration: none; }
+
+/* Utilities */
+.label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bg-gray { background-color: #dee2e6; }
