@@ -1,4 +1,4 @@
-# [box-shadow](https://nicotakenotice.github.io/box-shadow/)
+# 🔲 [box-shadow](https://nicotakenotice.github.io/box-shadow/)
 Sandbox tool to play with the homonymous CSS property.
 
 ## Development server
