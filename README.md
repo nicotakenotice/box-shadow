@@ -12,3 +12,6 @@ npm run dev
 Navigate to [`localhost:4300`](http://localhost:4300). The app will automatically reload if you change any of the source files.
 
 By default, the server will only respond to requests from `localhost`. To allow connections from other computers, edit the `sirv` command in `package.json` to include the option `--host 0.0.0.0`.
+
+## Build
+Run `npm run build` to build the project. The build artifacts will be stored in the `docs` directory, ready to be published.
