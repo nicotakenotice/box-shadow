@@ -5,7 +5,7 @@ Sandbox tool to play with the homonymous CSS property.
 Install the dependencies and run a dev server:
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
